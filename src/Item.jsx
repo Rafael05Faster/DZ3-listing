@@ -10,7 +10,7 @@ export default function Item(props) {
     } else if (item.quantity > 11 && item.quantity < 21) {
         stockLvl = 'medium';
     } else if (item.quantity > 20) {
-        stockLvl = 'hight';
+        stockLvl = 'high';
     }
     let isGlobalCur = false;
     let currSymbol;
